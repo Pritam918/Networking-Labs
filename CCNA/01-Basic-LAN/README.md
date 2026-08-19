@@ -1,4 +1,4 @@
-# Lab 01 - Basic LAN
+# 1. Basic LAN
 
 ## Objective
 
