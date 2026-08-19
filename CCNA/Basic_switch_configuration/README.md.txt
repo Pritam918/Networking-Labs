@@ -1,48 +1,62 @@
-# Cisco Catalyst 2960 – Basic Switch Configuration
+# 2. Basic Switch Configuration
 
-## Project Overview
+## Cisco Catalyst 2960
 
-This project demonstrates basic configuration of a Cisco Catalyst 2960 switch using Cisco Packet Tracer.
+This project demonstrates the basic configuration of a Cisco Catalyst 2960 switch using Cisco Packet Tracer.
 
-The purpose of this project is to practice fundamental Cisco IOS commands and basic switch security configuration.
-
-## Network Topology
-
-The topology consists of:
+### Network Topology
 
 - 1 × Cisco Catalyst 2960 Switch
 - 1 × PC
 - 1 × Ethernet connection
 
-## Configurations Completed
+### Configurations Completed
 
-The following configurations were performed:
-
-- Basic switch hostname configuration
+- Hostname configuration
 - Enable secret password
-- Console line password
-- VTY line password
+- Console password
+- VTY password
 - Login authentication
 - MOTD banner
 - Password encryption
-- Running configuration saved to startup configuration
+- Configuration saved to startup-config
 - Basic PC-to-Switch connectivity
 
-## Password Security
+### Verification
 
-For this practice project, passwords were configured for:
-
-- Privileged EXEC mode
-- Console access
-- VTY remote access
-
-> Note: This project is created for learning and practice purposes. Passwords should not be exposed in production environments.
-
-## Verification
-
-The configuration was verified using Cisco IOS commands such as:
-
+The configuration was verified using:
 
 show running-config
-The running configuration was successfully saved using:
+
+The configuration was saved using:
+
 copy running-config startup-config
+
+### Tools Used
+
+- Cisco Packet Tracer
+- Cisco Catalyst 2960
+- Cisco IOS CLI
+
+### Project Files
+
+- `SW1-Basic-Switch-Configuration.pkt` — Packet Tracer project
+- `topology.png` — Network topology
+- `CLI-screenshot-1.png` — CLI configuration
+- `CLI-screenshot-2.png` — CLI configuration
+
+### Skills Practiced
+
+- Cisco IOS CLI
+- Basic Switch Configuration
+- Console and VTY Configuration
+- Network Security Basics
+- Password Encryption
+- Configuration Verification
+
+## Author
+
+**Pritam Barua**
+
+BSc (Hons) in Computer Science & Engineering  
+CCNA & MTCNA
