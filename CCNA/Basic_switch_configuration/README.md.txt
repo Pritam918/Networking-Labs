@@ -1,5 +1,6 @@
-# Cisco Catalyst 2960 – Basic Switch Configuration
 
+# 2. Basic Switch Configuration
+# Cisco Catalyst 2960 
 ## Project Overview
 
 This project demonstrates basic configuration of a Cisco Catalyst 2960 switch using Cisco Packet Tracer.
