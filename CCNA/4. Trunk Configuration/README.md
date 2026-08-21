@@ -1,6 +1,6 @@
 # 4. Trunk Configuration
 
-## 📌 Overview
+##  Overview
 
 This lab demonstrates the configuration of a **Trunk Link** between two Cisco switches using Cisco Packet Tracer.
 
@@ -8,7 +8,7 @@ A trunk link allows multiple VLANs to travel between switches over a single phys
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Understand the difference between Access and Trunk ports
 * Create VLANs on multiple switches
@@ -19,7 +19,7 @@ A trunk link allows multiple VLANs to travel between switches over a single phys
 
 ---
 
-## 🖥️ Network Topology
+##  Network Topology
 
 ```text
         VLAN 10                         VLAN 10
@@ -37,7 +37,7 @@ A trunk link allows multiple VLANs to travel between switches over a single phys
                                           VLAN 20
 ```
 
-### 🔗 Trunk Link
+###  Trunk Link
 
 ```text
 SW1 Fa0/3  =================  Fa0/3 SW2
@@ -46,7 +46,7 @@ SW1 Fa0/3  =================  Fa0/3 SW2
 
 ---
 
-## 🌐 VLAN Configuration
+##  VLAN Configuration
 
 | VLAN    | Name  | Purpose          |
 | ------- | ----- | ---------------- |
@@ -55,7 +55,7 @@ SW1 Fa0/3  =================  Fa0/3 SW2
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Step 1 — Create VLANs
 
@@ -126,7 +126,7 @@ end
 
 ---
 
-## 🔍 Verification
+##  Verification
 
 The trunk configuration was verified using:
 
@@ -138,7 +138,7 @@ The output confirmed that **Fa0/3** was operating as a trunk port.
 
 ---
 
-## 🧪 Connectivity Testing
+##  Connectivity Testing
 
 ### VLAN 10 Test
 
@@ -166,7 +166,7 @@ Communication between VLAN 10 and VLAN 20 was not successful because **Inter-VLA
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Trunk Verification
 
@@ -178,7 +178,7 @@ Communication between VLAN 10 and VLAN 20 was not successful because **Inter-VLA
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 * Cisco Packet Tracer
 * Cisco Catalyst Switch
@@ -186,13 +186,13 @@ Communication between VLAN 10 and VLAN 20 was not successful because **Inter-VLA
 
 ---
 
-## 📚 Skills Practiced
+##  Skills Practiced
 
 `Trunking` • `802.1Q` • `VLAN` • `Switching` • `Cisco IOS` • `Packet Tracer` • `Network Troubleshooting`
 
 ---
 
-## 🧠 Key Learning
+##  Key Learning
 
 A trunk port allows traffic from multiple VLANs to pass between switches through a single physical link.
 
@@ -200,7 +200,7 @@ In this lab, **Fa0/3** was configured as the trunk port on both switches.
 
 ---
 
-## 📁 Project File
+##  Project File
 
 The complete Cisco Packet Tracer project is available in:
 
