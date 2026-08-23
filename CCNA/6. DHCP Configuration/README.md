@@ -124,7 +124,8 @@ The following screenshots are included as evidence:
 3. VLAN 10 DHCP IP Assignment
 4. VLAN 10 Gateway Ping
 5. VLAN 20 DHCP IP Assignment
-6. Inter-VLAN Ping Test
+6. VLAN 20 Gateway Ping
+7. Inter-VLAN Ping Test
 
 ##  Tools Used
 
@@ -156,5 +157,3 @@ Both VLAN 10 and VLAN 20 PCs automatically received valid IP addresses from the 
 ##  Author
 
 Pritam Barua
-
-BSc (Hons) in Computer Science & Engineering
