@@ -243,13 +243,33 @@ PC0
 
 ## Screenshots
 
-* `topology.png` — Complete network topology
-* `R0-NAT-config.png` — R0 Static NAT configuration
-* `R0-NAT-translation.png` — R0 NAT translation table
-* `R0-routing-table.png` — R0 routing table
-* `R1-routing-table.png` — R1 routing table
-* `R1-to-NAT-IP-ping.png` — R1 to NAT global address connectivity
-* `PC0-to-Server-ping.png` — PC0 to Server connectivity
+### Topology
+
+![Network Topology](Topology.png)
+
+### Router0 Interface and Routing
+
+![Router0 Interface and Routing](Router0-Interface-Routing.png)
+
+### Static NAT Configuration
+
+![Router0 NAT Configuration](Router0-NAT-Config.png)
+
+### NAT Translation
+
+![NAT Translation Table](NAT-Translations.png)
+
+### NAT Connectivity
+
+![NAT Connectivity](NAT-Connectivity.png)
+
+### PC0 to Server
+
+![PC0 to Server](PC-to-Server.png)
+
+### Server IP Configuration
+
+![Server IP Configuration](Server-IP.png)
 
 ## Key Concepts Learned
 
