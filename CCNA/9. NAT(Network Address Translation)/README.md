@@ -2,7 +2,7 @@
 
 ## Objective
 
-Configure Static NAT on a Cisco router to translate an inside local private IP address into an inside global IP address and verify end-to-end connectivity.
+Configure Static NAT on a Cisco router and verify IP address translation and end-to-end connectivity between an inside host and an outside network.
 
 ## Topology
 
@@ -24,7 +24,7 @@ PC0 ── SW0 ── R0 ───── R1 ───── Server0
 
 ### NAT Mapping
 
-| Type          | IP Address   |
+| NAT Type      | IP Address   |
 | ------------- | ------------ |
 | Inside Local  | 192.168.1.10 |
 | Inside Global | 200.10.10.20 |
@@ -84,7 +84,7 @@ end
 
 ## Static NAT Mapping
 
-The following static NAT mapping was configured on R0:
+The following command was configured on R0:
 
 ```cisco
 ip nat inside source static 192.168.1.10 200.10.10.20
@@ -107,12 +107,7 @@ Command used:
 show ip nat translations
 ```
 
-The NAT translation table should show the mapping between the inside local and inside global addresses.
-
-```text
-Inside Local       Inside Global
-192.168.1.10       200.10.10.20
-```
+The NAT translation table successfully displayed the mapping between the inside local and inside global addresses.
 
 ### NAT Statistics
 
@@ -122,7 +117,7 @@ Command used:
 show ip nat statistics
 ```
 
-This command is used to verify NAT interfaces, translations, and NAT statistics.
+This command was used to verify NAT interfaces and translation statistics.
 
 ## Routing Verification
 
@@ -134,7 +129,7 @@ Command used:
 show ip route
 ```
 
-R0 should have a route to the Server network:
+R0 contains a route to the Server network:
 
 ```text
 200.10.10.0/24 via 10.0.0.2
@@ -148,7 +143,7 @@ Command used:
 show ip route
 ```
 
-R1 should have a route to the NAT global address:
+R1 contains a route to the NAT global address:
 
 ```text
 200.10.10.20/32 via 10.0.0.1
@@ -196,7 +191,7 @@ ping 200.10.10.20
 
 Ping was successful.
 
-This verifies that traffic from the outside network can reach PC0 through the Static NAT mapping.
+This verified that the outside network could reach the inside host through the Static NAT mapping.
 
 ## NAT Packet Flow
 
@@ -205,21 +200,18 @@ This verifies that traffic from the outside network can reach PC0 through the St
 ```text
 PC0
 192.168.1.10
-     │
-     │
-     ▼
+     |
+     | NAT
+     ↓
 R0
-192.168.1.1 / 10.0.0.1
-     │
-     │ NAT Translation
-     ▼
+     |
+     ↓
 200.10.10.20
-     │
-     ▼
+     |
+     ↓
 R1
-10.0.0.2
-     │
-     ▼
+     |
+     ↓
 Server0
 200.10.10.10
 ```
@@ -228,41 +220,32 @@ Server0
 
 ```text
 R1
-     │
-     │ Destination: 200.10.10.20
-     ▼
+     |
+     | Destination: 200.10.10.20
+     ↓
 R0
-     │
-     │ NAT Translation
-     ▼
+     |
+     | NAT Translation
+     ↓
 192.168.1.10
-     │
-     ▼
+     |
+     ↓
 PC0
 ```
 
 ## Screenshots
 
-### Topology
+* `Topology.png` — Network topology
+* `Router0 Interface+Routing.png` — Router0 interface and routing table
+* `Router0 NAT Config.png` — Router0 Static NAT configuration
+* `NAT Translations.png` — NAT translation table
+* `NAT Connectivity.png` — NAT connectivity verification
+* `PC to Server.png` — PC0 to Server connectivity test
+* `Server IP.png` — Server IP configuration
 
+## Packet Tracer File
 
-### Router0 Interface and Routing
-
-
-### Static NAT Configuration
-
-
-### NAT Translation
-
-
-### NAT Connectivity
-
-
-### PC0 to Server
-
-
-### Server IP Configuration
-
+* `NAT.pkt` — Cisco Packet Tracer project file
 
 ## Key Concepts Learned
 
@@ -281,9 +264,11 @@ PC0
 
 ## Result
 
-Static NAT was successfully configured on R0. The inside local address `192.168.1.10` was statically translated to the inside global address `200.10.10.20`.
+Static NAT was successfully configured on R0.
 
-The NAT translation table successfully displayed the configured mapping, and connectivity was verified between the inside host, routers, and server network.
+The inside local address `192.168.1.10` was statically translated to the inside global address `200.10.10.20`.
 
-##  Author
+The NAT translation table successfully displayed the configured mapping, and connectivity was verified between PC0, R0, R1, and Server0.
+
+## Author
 Pritam Barua
