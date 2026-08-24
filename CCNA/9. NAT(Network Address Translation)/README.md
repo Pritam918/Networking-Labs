@@ -245,31 +245,24 @@ PC0
 
 ### Topology
 
-![Network Topology](Topology.png)
 
 ### Router0 Interface and Routing
 
-![Router0 Interface and Routing](Router0-Interface-Routing.png)
 
 ### Static NAT Configuration
 
-![Router0 NAT Configuration](Router0-NAT-Config.png)
 
 ### NAT Translation
 
-![NAT Translation Table](NAT-Translations.png)
 
 ### NAT Connectivity
 
-![NAT Connectivity](NAT-Connectivity.png)
 
 ### PC0 to Server
 
-![PC0 to Server](PC-to-Server.png)
 
 ### Server IP Configuration
 
-![Server IP Configuration](Server-IP.png)
 
 ## Key Concepts Learned
 
