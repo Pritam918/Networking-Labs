@@ -38,3 +38,6 @@ Result: Successful
 - Cisco switch connectivity
 - Ping testing
 - Basic troubleshooting
+
+## Author
+Pritam Barua
