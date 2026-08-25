@@ -1,4 +1,4 @@
-## 01.Basic LAN
+## 01. Basic LAN Configuration
 
 ## Objective
 
