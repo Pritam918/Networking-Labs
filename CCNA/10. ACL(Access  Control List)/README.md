@@ -65,31 +65,6 @@ PC3 → Server     Allowed
 
 ---
 
-## Standard ACL
-
-![Standard ACL](Standard%20ACL.png)
-
----
-
-## PC1 to Server Ping
-
-![Standard- PC1 to Server ping](Standard-%20PC1%20to%20Server%20ping.png)
-
-PC1 was blocked from accessing the Server.
-
-**Result:**  Blocked
-
----
-
-## PC2 to Server Ping
-
-![Standard-PC2 to server ping](Standard-PC2%20to%20server%20ping.png)
-
-PC2 was able to access the Server successfully.
-
-**Result:**  Allowed
-
----
 
 # Part 2 — Extended ACL
 
@@ -125,37 +100,6 @@ Other IP Traffic      Allowed
 
 ---
 
-## Extended ACL
-
-![Extended ACL](Extended%20ACL.png)
-
----
-
-## Extended Access-list
-
-![Extended Access-list](Extended%20Access-list.png)
-
----
-
-## PC1 HTTP Blocked
-
-![Extended- PC1 HTTP Blocked](Extended-%20PC1%20HTTP%20Blocked.png)
-
-HTTP traffic from PC1 to the Server was blocked by the Extended ACL.
-
-**Result:**  HTTP Blocked
-
----
-
-## PC1 Ping Allowed
-
-![Extended-- PC1 Ping allowed](Extended--%20PC1%20Ping%20allowed.png)
-
-Ping from PC1 to the Server remained successful because ICMP traffic was not blocked.
-
-**Result:**  Ping Allowed
-
----
 
 # Verification Commands
 
@@ -228,8 +172,8 @@ HTTP traffic was blocked by the Extended ACL.
 
 # Packet Tracer File
 
-* `ACL.pkt` — Cisco Packet Tracer project file
-
+* `Standard ACL.pkt` — Cisco Packet Tracer project file
+* `Extended ACL.pkt` — Cisco Packet Tracer project file
 ---
 
 # Key Concepts Learned
