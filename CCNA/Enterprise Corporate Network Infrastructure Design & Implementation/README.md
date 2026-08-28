@@ -1,5 +1,5 @@
-## Enterprise Corporate Network Infrastructure Design & Implementation
-#  Company Name: PB Tehnology Limited
+# Enterprise Corporate Network Infrastructure Design & Implementation
+##  Company Name: PB Tehnology Limited
 
 ## 📌 Project Overview
 
