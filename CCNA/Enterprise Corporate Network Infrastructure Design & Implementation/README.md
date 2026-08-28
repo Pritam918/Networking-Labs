@@ -109,7 +109,7 @@ VLAN segmentation provides:
 
     show vlan brief
 
-![VLAN Configuration](Screenshots/02-VLAN-Configuration.png)
+![VLAN Configuration](./02-VLAN-Configuration.png)
 
 ---
 
@@ -144,7 +144,7 @@ Example configuration:
 
     show interfaces trunk
 
-![Trunk Configuration](Screenshots/03-Trunk-Configuration.png)
+![Trunk Configuration](./03-Trunk-Configuration.png)
 
 ### Purpose
 
@@ -222,7 +222,7 @@ The CORE-SW acts as the default gateway for all VLANs.
 
     show ip interface brief
 
-![Inter-VLAN Routing](Screenshots/04-Inter-VLAN-Routing.png)
+![Inter-VLAN Routing](./04-Inter-VLAN-Routing.png)
 
 ---
 
@@ -281,7 +281,7 @@ All DHCP pools use:
     Subnet Mask: 255.255.255.0
     DNS Server: 192.168.70.3
 
-![DHCP Server Configuration](Screenshots/05-DHCP-Server.png)
+![DHCP Server Configuration](./05-DHCP-Server.png)
 
 ---
 
@@ -318,7 +318,7 @@ Example:
     Default Gateway: 192.168.10.1
     DNS Server:      192.168.70.3
 
-![DHCP Client Test](Screenshots/06-DHCP-Client-Test.png)
+![DHCP Client Test](./06-DHCP-Client-Test.png)
 
 ---
 
@@ -384,9 +384,9 @@ OSPF uses Area 0 in this project.
 
 OSPF neighbors successfully reached the FULL state.
 
-![OSPF Configuration](Screenshots/07-OSPF-Configuration.png)
+![OSPF Configuration](./07-OSPF-Configuration.png)
 
-![OSPF Neighbor](Screenshots/08-OSPF-Neighbor.png)
+![OSPF Neighbor](./08-OSPF-Neighbor.png)
 
 ---
 
@@ -422,7 +422,7 @@ R1 forwards unknown traffic toward the ISP router:
 
     ip route 0.0.0.0 0.0.0.0 10.0.0.2
 
-![NAT/PAT Configuration](Screenshots/09-NAT-PAT-Configuration.png)
+![NAT/PAT Configuration](./09-NAT-PAT-Configuration.png)
 
 ---
 
@@ -432,7 +432,7 @@ R1 forwards unknown traffic toward the ISP router:
 
 The NAT translation table was successfully populated after internal clients generated outside traffic.
 
-![NAT Translation](Screenshots/10-NAT-Translation.png)
+![NAT Translation](./10-NAT-Translation.png)
 
 ---
 
@@ -485,7 +485,7 @@ The ACL was applied inbound on VLAN 60:
 
     show access-lists GUEST-ISOLATION
 
-![Guest ACL Configuration](Screenshots/11-ACL-Guest-Isolation.png)
+![Guest ACL Configuration](./11-ACL-Guest-Isolation.png)
 
 ---
 
@@ -503,7 +503,7 @@ Example:
 
 This confirms that the ACL successfully blocks Guest access to protected internal networks.
 
-![ACL Test](Screenshots/12-ACL-Test.png)
+![ACL Test](./12-ACL-Test.png)
 
 ---
 
@@ -535,7 +535,7 @@ Therefore:
           ↓
     192.168.70.3
 
-![DNS Configuration](Screenshots/13-DNS-Configuration.png)
+![DNS Configuration](./13-DNS-Configuration.png)
 
 ---
 
@@ -561,7 +561,7 @@ The hostname successfully resolved to:
 
 This confirms that DNS resolution is working correctly.
 
-![DNS Test](Screenshots/14-DNS-Test.png)
+![DNS Test](./14-DNS-Test.png)
 
 ---
 
@@ -590,7 +590,7 @@ After completing all configurations, the network was tested end-to-end.
     show ip interface brief
     show ip route
 
-![Final Verification](Screenshots/15-Final-Verification.png)
+![Final Verification](./15-Final-Verification.png)
 
 ---
 
