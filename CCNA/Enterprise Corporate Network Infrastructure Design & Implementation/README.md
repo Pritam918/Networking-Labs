@@ -26,7 +26,7 @@ The main objective of this project is to build a structured, scalable, and secur
 
 # 🖥️ Network Topology
 
-![Network Topology] (01-Topology.png)
+![Network Topology] (./01-Topology.png)
 
 ### Network Architecture
 
