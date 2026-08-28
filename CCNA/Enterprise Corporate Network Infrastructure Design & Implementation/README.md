@@ -1,10 +1,6 @@
 # Enterprise Corporate Network Infrastructure Design & Implementation
 > A high-availability network design and implementation project for PB Technology Limited.
 
-**Organization:** PB Technology Limited  
-**Category:** Network Engineering / Infrastructure  
-**Status:** Completed
-
 ## 📌 Project Overview
 
 This project demonstrates the design and implementation of a small enterprise network using Cisco Packet Tracer.
