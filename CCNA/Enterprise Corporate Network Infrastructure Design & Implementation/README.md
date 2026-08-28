@@ -797,6 +797,5 @@ The final network provides:
 The network has been configured, tested, and verified successfully.
 
 ## Designed and Implemented by
-Pritam Barua 
-Bsc in Computer Science and Engineering
-Email: je.pritam429@gmail.com
+Pritam Barua,
+> Bsc in Computer Science and Engineering, BGC Trust University Bangladesh
