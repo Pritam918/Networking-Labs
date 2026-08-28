@@ -1,5 +1,9 @@
 # Enterprise Corporate Network Infrastructure Design & Implementation
-##  Company Name: PB Technology Limited
+> A high-availability network design and implementation project for PB Technology Limited.
+
+**Organization:** PB Technology Limited  
+**Category:** Network Engineering / Infrastructure  
+**Status:** Completed
 
 ## 📌 Project Overview
 
