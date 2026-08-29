@@ -16,20 +16,6 @@ This lab covers the assignment of static IP addresses to network interfaces on a
 
 ---
 
-## Commands Executed
 
-```routeros
-# 1. Assign Static IP to WAN Interface
-/ip address add address=192.168.0.200/24 interface=ether1 comment="WAN-Interface"
-
-# 2. Assign Gateway IP to LAN Interface
-/ip address add address=10.10.10.1/24 interface=ether2 comment="LAN-Gateway"
-
-[admin@MTCNA-R1] > /ip address print
-Flags: X - disabled, I - invalid, D - dynamic 
- #   ADDRESS            NETWORK         INTERFACE
- 0   192.168.0.200/24   192.168.0.0     ether1   
- 1   10.10.10.1/24      10.10.10.0      ether2
-
-##Author
+## Author
 Pritam Barua
