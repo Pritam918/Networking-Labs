@@ -15,7 +15,7 @@ This lab covers the assignment of static IP addresses to network interfaces on a
 | `ether2`  | LAN  | `10.10.10.1/24`    | Local Gateway for Office/Home Network |
 
 ---
-The ip address verification and configuation screenshot are attached.
+## The ip address verification and configuation screenshot are attached.
 
 ## Author
 Pritam Barua
