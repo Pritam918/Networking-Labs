@@ -59,7 +59,7 @@ This lab demonstrates the configuration of Firewall Filter Rules on MikroTik Rou
 
 To print active firewall rules with packet statistics via MikroTik Terminal:
 
-```routeros
+routeros
 /ip firewall filter print stats
 
 ## Author
