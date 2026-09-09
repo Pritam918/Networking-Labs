@@ -21,7 +21,7 @@ This lab covers the configuration of Virtual LANs (VLANs) on MikroTik RouterOS u
 
 ---
 
-## 🖱 WinBox GUI Configuration Steps
+##  WinBox GUI Configuration Steps
 
 ### Step 1: Create VLAN Interfaces
 1. Navigate to **Interfaces** ➔ **VLAN** tab from the WinBox left menu.
